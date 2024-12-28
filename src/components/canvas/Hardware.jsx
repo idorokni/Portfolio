@@ -1,6 +1,6 @@
 import { Suspense, useState, useEffect} from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Preload, useGLTF, Html, PerspectiveCamera } from '@react-three/drei'
+import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
 import Loader from '../Loader'
 
 const Hardware = ({ isMobileDevice }) => {

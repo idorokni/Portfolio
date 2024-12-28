@@ -1,7 +1,7 @@
 import React from "react";
 import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 import { styles } from "../style";
 import { educationData } from "../constants";
 

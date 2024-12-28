@@ -1,15 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../style";
-import { services, languages } from "../constants";
-import { fadeIn, slideIn, textVariant } from "../utils/motion";
+import { languages } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { c_punchcard } from "../assets";
 import { Tilt } from "react-tilt"
 
 const LanguageCard = ({ index, image}) => {
   return (
-    <Tilt className="xs:w-[500px] w-full">
+    <Tilt className="2xl:w-[500px] xs:w-[400px] w-full">
       <motion.div 
         variants={fadeIn("right", "spring", 0.5 * index, 0.75 )}
         className="w-full gray-black-gradient p-[1px] rounded-[20px]">

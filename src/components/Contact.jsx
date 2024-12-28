@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect } from 'react'
 import { SectionWrapper } from '../hoc'
 import { styles } from '../style'
 import { motion } from 'framer-motion'

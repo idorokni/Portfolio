@@ -1,9 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, MatrixRainEffect, Loader, Education } from "./components"
+import { About, Contact, Experience, Hero, Navbar, Works, MatrixRainEffect, Education } from "./components"
 import { useState, useEffect } from "react"
-import { useTexture } from "@react-three/drei"
-import { Canvas } from "@react-three/fiber"
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
