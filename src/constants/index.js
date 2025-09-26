@@ -1,5 +1,6 @@
 import {
     pickpack,
+    xmcyber,
     c_punchcard,
     csharp_punchcard,
     cpp_punchcard,
@@ -52,12 +53,23 @@ import {
       company_name: "Pickpack",
       icon: pickpack,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2024 - November 2024",
       points: [
         "Leveraged the Orleans library to build scalable, distributed systems with actor-based concurrency for efficient task execution.",
         "Managed data access and database interactions by implementing ORM solutions with Entity Framework, ensuring efficient CRUD operations and database performance.",
         "Utilized LINQ to streamline complex data querying and manipulation, enhancing code readability and maintainability in the backend logic.",
         "Developed backend logic using C# to support core functionalities of PickPack’s services.",
+      ],
+    },
+    {
+      title: "Cyber Intern",
+      company_name: "XM Cyber",
+      icon: xmcyber,
+      iconBg: "#0E1242",
+      date: "July 2025 - October 2025",
+      points: [
+        "Explore and implement modern attack techniques in cloud environments (AWS, Azure, GCP) and enterprise networks.",
+        "Collaborate with the development team to maintain and improve existing infrastructure.",
       ],
     },
   ];

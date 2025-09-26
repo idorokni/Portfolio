@@ -3,14 +3,13 @@ import { motion } from "framer-motion";
 import { styles } from "../style";
 import { fadeIn, textVariant } from "../utils/motion";
 import { NexusOSPoints } from "../constants";
-import { HardwareCanvas } from "./canvas";
 
 const NexusOS = ({ isMobile }) => {
 
   return (
     <div className="flex flex-col md:flex-row h-full w-full">
       {/* Left Section */}
-      <motion.div className={`${isMobile ? "w-full" : "w-1/2"} flex flex-col`}>
+      <motion.div className="w-full flex flex-col">
         <motion.div variants={textVariant()}>
           <h2 className={styles.sectionHeadText}>NexusOS.</h2>
         </motion.div>
@@ -33,12 +32,6 @@ const NexusOS = ({ isMobile }) => {
           ))}
         </motion.ul>
       </motion.div>
-
-      {!isMobile && (
-        <motion.div className="w-1/2 flex items-center justify-center">
-          <HardwareCanvas />
-        </motion.div>
-      )}
     </div>
   );
 };

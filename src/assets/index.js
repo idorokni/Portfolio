@@ -7,6 +7,8 @@ import c_punchcard from "./c_punchcard.png"
 import cpp_punchcard from "./cpp_punchcard.png"
 import csharp_punchcard from "./csharp_punchcard.png"
 import pickpack from './company/pickpack.png'
+import xmcyber from './company/xmcyber.png'
+
 
 export {
   logo,
@@ -17,5 +19,6 @@ export {
   cpp_punchcard,
   csharp_punchcard,
   pickpack,
+  xmcyber,
   powerOnButton,
 };
